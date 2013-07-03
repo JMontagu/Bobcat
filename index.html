@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bobcat | An earth moving asset loader</title>
+</head>
+<body id="site">
+
+    <div id="loader">
+        <div id="bar"><div id="loader-bar"><div id="loader-bar-img"></div></div></div>
+        <div id="loader-percentage"><span id="loader-text">0</span>%</div>
+        <div id="loader-update">Initializing...</div>
+    </div>
+
+    <!-- DEMO CSS -->
+    <style type="text/css">
+        ul{
+            margin:0;
+            padding:0;
+        }
+        ul li{
+            list-style:none;
+            float:left;
+            display:block;
+            margin:0 10px 10px 0;
+            padding:0;
+        }
+    </style>
+
+    <!-- INIT SCRIPTS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="js/bobcat.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        bobcat.init({
+            paths: [
+                "js/EventEmitter.js",
+                "js/eventie.js",
+                "js/imagesloaded.js"
+            ]}
+        );
+        window.bobcatLoaded = function(instance){
+            //  Do something
+        };
+    </script>
+
+    <div id="images">
+        <ul>
+            <li><img src="//lorempixel.com/151/193/?112"></li>
+            <li><img src="//lorempixel.com/539/463/?580"></li>
+            <li><img src="//lorempixel.com/311/352/?700"></li>
+            <li><img src="//lorempixel.com/653/534/?507"></li>
+            <li><img src="//lorempixel.com/511/473/?992"></li>
+            <li><img src="//lorempixel.com/280/319/?770"></li>
+            <li><img src="//lorempixel.com/249/188/?113"></li>
+            <li><img src="//lorempixel.com/301/266/?354"></li>
+            <li><img src="//lorempixel.com/490/370/?835"></li>
+            <li><img src="//lorempixel.com/500/432/?472"></li>
+            <li><img src="//lorempixel.com/710/505/?484"></li>
+            <li><img src="//lorempixel.com/266/281/?174"></li>
+            <li><img src="//lorempixel.com/265/327/?777"></li>
+            <li><img src="//lorempixel.com/242/294/?703"></li>
+            <li><img src="//lorempixel.com/301/268/?921"></li>
+            <li><img src="//lorempixel.com/466/394/?245"></li>
+            <li><img src="//lorempixel.com/282/238/?830"></li>
+            <li><img src="//lorempixel.com/416/422/?609"></li>
+            <li><img src="//lorempixel.com/470/540/?762"></li>
+            <li><img src="//lorempixel.com/617/555/?610"></li>
+            <li><img src="//lorempixel.com/294/319/?136"></li>
+            <li><img src="//lorempixel.com/233/268/?669"></li>
+            <li><img src="//lorempixel.com/498/509/?217"></li>
+            <li><img src="//lorempixel.com/744/513/?261"></li>
+            <li><img src="//lorempixel.com/342/479/?317"></li>
+            <li><img src="//lorempixel.com/133/169/?731"></li>
+            <li><img src="//lorempixel.com/390/323/?760"></li>
+            <li><img src="//lorempixel.com/700/540/?112"></li>
+            <li><img src="//lorempixel.com/521/402/?634"></li>
+            <li><img src="//lorempixel.com/464/542/?121"></li>
+            <li><img src="//lorempixel.com/408/515/?551"></li>
+            <li><img src="//lorempixel.com/408/290/?790"></li>
+            <li><img src="//lorempixel.com/686/497/?230"></li>
+            <li><img src="//lorempixel.com/501/510/?227"></li>
+            <li><img src="//lorempixel.com/508/475/?781"></li>
+            <li><img src="//lorempixel.com/314/269/?733"></li>
+            <li><img src="//lorempixel.com/205/177/?526"></li>
+            <li><img src="//lorempixel.com/217/226/?335"></li>
+            <li><img src="//lorempixel.com/432/328/?100"></li>
+            <li><img src="//lorempixel.com/169/143/?151"></li>
+            <li><img src="//lorempixel.com/727/523/?157"></li>
+            <li><img src="//lorempixel.com/346/268/?447"></li>
+            <li><img src="//lorempixel.com/360/306/?785"></li>
+            <li><img src="//lorempixel.com/309/337/?699"></li>
+            <li><img src="//lorempixel.com/235/321/?847"></li>
+            <li><img src="//lorempixel.com/208/259/?481"></li>
+            <li><img src="//lorempixel.com/332/458/?547"></li>
+            <li><img src="//lorempixel.com/432/325/?710"></li>
+            <li><img src="//lorempixel.com/331/338/?658"></li>
+        </ul>
+    </div>
+
+</body>
+</html>
