@@ -21,7 +21,7 @@ bobcat = {
 			finished: 		"Finished..."
 		}
 	},
-	init: function(data){
+	lift: function(data){
 		bobcat.onEvent(bobcat.settings.lang.initializing);
 		(function(Modernizr) {
 			Modernizr.load({
