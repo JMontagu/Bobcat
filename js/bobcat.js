@@ -1,3 +1,9 @@
+/*!
+ * Bobcat v0.1
+ * Craig Collie
+ * MIT license
+ */
+
 /*global $:true, console:false */
 var bobcat = window.bobcat || {};
 bobcat = {
