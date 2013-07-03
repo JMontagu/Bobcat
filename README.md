@@ -31,7 +31,7 @@ Once everything has been loaded, including all images on the site you can run an
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="js/bobcat.js" type="text/javascript"></script>
     <script type="text/javascript">
-        bobcat.init({
+        bobcat.lift({
             paths: [
                 "js/EventEmitter.js",
                 "js/eventie.js",
